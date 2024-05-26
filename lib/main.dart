@@ -76,7 +76,7 @@ class _CounterAlgoState extends State<CounterAlgo> {
                     child: Icon(Icons.add, color: Colors.orange,size: 45,),
                   ),
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(15,0, 0, 0),
+                    padding: const EdgeInsets.fromLTRB(16,0, 0, 0),
                     child: FloatingActionButton(
                       onPressed: (){
                         _decrementCounter();
@@ -86,7 +86,7 @@ class _CounterAlgoState extends State<CounterAlgo> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(15, 0, 0, 0),
+                    padding: const EdgeInsets.fromLTRB(16, 0, 0, 0),
                     child: FloatingActionButton(
                       onPressed: (){
                         _resetCounter();
